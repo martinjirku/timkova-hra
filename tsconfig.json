@@ -1,0 +1,17 @@
+{
+    "files": [
+        "node_modules/phaser/typescript/phaser.d.ts",
+        "node_modules/phaser/typescript/pixi.d.ts",
+        "node_modules/phaser/typescript/p2.d.ts",
+        "./src/main.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "noImplicitAny": true,
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "traceResolution": true
+    }
+}
